@@ -12,6 +12,18 @@ Espacio de trabajo:
 	- Se modifica un único fichero (readme.txt) con el fin de simplificar el ejemplo.
 
 PRUEBAS REALIZADAS
+	
+	PRUEBA1: VARIAS FEATURES EN ORDEN
+	- Se inician y finalizan varias features, una detrás de otra. Cuando las features llevan varios commits se realiza siempre un --no-ff.
+	Si la feature lleva sólo un commit, no se realiza --no-ff, y da la impresión de que se ha realizado directamente en develop.
+	Las ramas de las features se eliminan una vez que se finaliza la feature, y si fueron publicadas previamente, al finalizarlas también se eliminan del remoto.
+	Una vez finalizada la feature se mergea en develop. Los cambios en develop hay que subirlos con git push, no se suben solos.
+
+	PRUEBA 2: VARIAS FEATURES CRUZADAS
+
+	- Se inicia una feature y se deja sin finalizar. A continuación otro programador crea otra feature.
+	Cruzamos las features creando la primera, después creando la segunda, cerrando la primera y por último la segunda.
+	Ambas features escriben en las mismas líneas sin saberlo.
 
 
 CONCLUSIONES
