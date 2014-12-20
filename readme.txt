@@ -13,6 +13,12 @@ Espacio de trabajo:
 
 PRUEBAS REALIZADAS
 
+	PRUEBA 2: VARIAS FEATURES CRUZADAS
+
+	- Se inicia una feature y se deja sin finalizar. A continuación otro programador crea otra feature.
+	Cruzamos las features creando la primera, después creando la segunda, cerrando la primera y por último la segunda.
+	Ambas features escriben en las mismas líneas sin saberlo.
+
 
 CONCLUSIONES
 
