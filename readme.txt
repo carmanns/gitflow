@@ -19,6 +19,13 @@ PRUEBAS REALIZADAS
 	Las ramas de las features se eliminan una vez que se finaliza la feature, y si fueron publicadas previamente, al finalizarlas también se eliminan del remoto.
 	Una vez finalizada la feature se mergea en develop. Los cambios en develop hay que subirlos con git push, no se suben solos.
 
+	PRUEBA 2: VARIAS FEATURES CRUZADAS
+
+	- Se inicia una feature y se deja sin finalizar. A continuación otro programador crea otra feature.
+	Cruzamos las features creando la primera, después creando la segunda, cerrando la primera y por último la segunda.
+	Ambas features escriben en las mismas líneas sin saberlo.
+
+
 CONCLUSIONES
 
 PRINCIPIOS
