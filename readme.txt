@@ -14,7 +14,6 @@ Espacio de trabajo:
 PRUEBAS REALIZADAS
 	
 	PRUEBA1: VARIAS FEATURES EN ORDEN
-
 	- Se inician y finalizan varias features, una detrás de otra. Cuando las features llevan varios commits se realiza siempre un --no-ff.
 	Si la feature lleva sólo un commit, no se realiza --no-ff, y da la impresión de que se ha realizado directamente en develop.
 	Las ramas de las features se eliminan una vez que se finaliza la feature, y si fueron publicadas previamente, al finalizarlas también se eliminan del remoto.
